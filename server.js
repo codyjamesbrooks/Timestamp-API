@@ -3,7 +3,6 @@
 
 // init project
 var express = require("express");
-var dateFormat = require("dateformat");
 var app = express();
 
 // enable CORS (https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
