@@ -13,27 +13,30 @@
     <hr />
     <div class="container">
       <p>This is a timestamp Microservice API coded by Cody. There are a couple of ways to use
-        this API, all very self all of which I have outlined below. Thanks for using the API.
+        this API, all of which return a JSON object with two keys, the UNIX timestamp, and the UTC time. 
       </p>
       <h2>Example Usage:</h2>
         <h3>Get current Time</h3>
-        <p>simply add 'api' on to the end of the url</p>
+        <p>simply add 'api' on to the end of the current url</p>
         <ul>
-          <li><a href="api/"></a>https://Timestamp-API.codyjamesbrooks.repl.co/api</li>
+          <li>Current Time: <a href="api/">https://Timestamp-API.codyjamesbrooks.repl.co/api</a></li>
         </ul>
         <br>
         <h3>Using any valid date string</h3>
-        <p>Append any date string onto the end of the url after api/</p>
+        <p>Add any date string onto the end of the url after api</p>
         <ul>
-          <li><a href="api/1791-12-15">https://Timestamp-API.codyjamesbrooks.repl.co/api/1791-12-15</a><li>
-          <li><a href="api/12 17 1770">https://Timestamp-API.codyjamesbrooks.repl.co/api/12 17 1770</a></li>
+          <li>Rosa Parks Arrested: <a href="api/1955-12-1">https://Timestamp-API.codyjamesbrooks.repl.co/api/1955-12-1</a><li>
+          <li>Pioneer 10 reaches Jupiter: <a href="api/12 4 1973">https://Timestamp-API.codyjamesbrooks.repl.co/api/12 4 1973</a></li>
+          <li>The Zipper is patented: <a href="api/April 29, 1913">https://Timestamp-API.codyjamesbrooks.repl.co/api/April 29, 1913</a></li>
         </ul>
-      <ul>
-        <li><a href="api/2015-12-25">[project url]/api/2015-12-25</a></li>
-        <li><a href="api/1451001600000">[project url]/api/1451001600000</a></li>
-      </ul>
-
-      <h3>Example Output:</h3>
+        <br>
+        <h3>Using a UNIX timestamp</h3>
+        <p>Add any UNIX timestamp onto the end of the url after api</p>
+        <ul>
+          <li>Bugs Bunny is debuted: <a href="api/-928774800000">https://Timestamp-API.codyjamesbrooks.repl.co/api/-928774800000</a></li>
+          <li>John Lennon is shot: <a href="api/345106800000">https://Timestamp-API.codyjamesbrooks.repl.com/api/345106800000</a></li>
+        </ul>
+      <h2>Example Output:</h2>
       <p>
         <code>{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code>
       </p>
